@@ -1,4 +1,5 @@
 <template>
+  <div v-if="$store.state.user.role === 'ADMIN'">
   <div class="container">
     <header-custom />
     <h1>Menú Admin</h1>
@@ -23,6 +24,7 @@
     </div>
     <router-view></router-view>
   </div>
+</div>
 </template>
 
 <script>
