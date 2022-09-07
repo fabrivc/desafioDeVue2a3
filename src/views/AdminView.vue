@@ -25,6 +25,11 @@
     <router-view></router-view>
   </div>
 </div>
+<div v-else>
+ <h2>Debes ser Administrador para entrar a esta ruta!</h2> 
+<img src="src/assets/DINOSAURIO PARA VUE.jpg" alt="">
+</div>
+
 </template>
 
 <script>

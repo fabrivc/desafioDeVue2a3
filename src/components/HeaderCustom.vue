@@ -1,5 +1,8 @@
 <template>
-  <v-app >
+  <div>
+    <br>
+    <br>
+    <br>
     <v-app-bar app color="secondary" dark>
       <v-container fluid>
         <v-row>
@@ -43,8 +46,9 @@
       </v-container>
 
       <v-spacer></v-spacer>
+  
     </v-app-bar>
-  </v-app>
+  </div>
 </template>
 
   <script>
