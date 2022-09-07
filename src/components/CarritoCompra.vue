@@ -9,8 +9,7 @@
       ><img src="../assets/whitecart.png" alt="Carrito compras" />
       <span class="cantidadItems">{{
         $store.state.carritoProductos.length
-      }}</span></router-link
-    >
+      }}</span></router-link>
   </div>
 </template>
 

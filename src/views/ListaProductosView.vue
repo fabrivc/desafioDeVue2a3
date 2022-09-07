@@ -39,7 +39,7 @@ export default {
     async created(){
       let url = "https://623b33f32e056d1037eee13e.mockapi.io/desafio-coder/productos";
 
-      await axios.get(url).then((response)=>(this.listaProductos = response.data));
+      await axios.get(url).then((payload)=>(this.$store.commit('asignarProductos',payload)));
     },
   
   methods:{
