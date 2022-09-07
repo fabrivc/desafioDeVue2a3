@@ -15,9 +15,7 @@ export default new Vuex.Store({
     userLogin: false,
     
   },
-  getters:{
-    asignarProductos(){}
-  },
+  getters:{},
   mutations,
   actions,
   modules: {

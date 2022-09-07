@@ -97,3 +97,9 @@ export const LISTA_PEDIDOS = (state,payload)=>{
 export const LOGOUT =(state) => {
     state.user = {};
 }
+
+export const asignarProductos = (state,payload) => {
+
+    state.listaProductos = payload
+
+}
